@@ -1,0 +1,7 @@
+﻿  Alien.cpp
+C:\Users\gameuser\Documents\College Stuff\AI\Labs\Lab 2\SFML Test\Alien.cpp(13,91): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+  Game.cpp
+  Main.cpp
+  Generating Code...
+C:\Users\gameuser\Documents\College Stuff\AI\Labs\Lab 2\SFML Test\Alien.cpp(13,53): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+  SFML Test.vcxproj -> C:\Users\gameuser\Documents\College Stuff\AI\Labs\Lab 2\Debug\SFML Test.exe
