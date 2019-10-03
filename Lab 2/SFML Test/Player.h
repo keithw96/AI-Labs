@@ -10,7 +10,8 @@ public:
 	void movement();
 	void update(sf::RenderWindow & window);
 	void render(sf::RenderWindow & window);
-
+	sf::Vector2f getPosition();
+	sf::Vector2f getVelocity();
 private:
 
 	sf::Sprite m_sprite;

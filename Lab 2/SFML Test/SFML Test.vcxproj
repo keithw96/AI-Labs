@@ -127,15 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Alien.cpp" />
+    <ClCompile Include="ArriveAlien.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PursueAlien.cpp" />
+    <ClCompile Include="SeekAlien.cpp" />
+    <ClCompile Include="WanderAlien.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Alien.h" />
+    <ClInclude Include="ArriveAlien.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="PursueAlien.h" />
+    <ClInclude Include="SeekAlien.h" />
+    <ClInclude Include="WanderAlien.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

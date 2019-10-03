@@ -13,13 +13,15 @@
 #endif 
 
 #include "Game.h"
-
+#include <time.h>
 /// <summary>
 /// Main Function
 /// </summary>
 /// <returns></returns>
 int main()
 {
+	srand(time(NULL));
+
 	Game game;
 	game.run();
 }

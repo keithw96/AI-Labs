@@ -5,13 +5,16 @@
 /// Caps window frame rate and calls object constructors
 /// </summary>
 Game::Game()
-	: m_window(sf::VideoMode(2000, 2000), "SFML Test")
+	: m_window(sf::VideoMode(3840, 2000), "SFML Test")
 {
 	m_window.setFramerateLimit(60);
 
 	m_player.initialise();
-	m_alien.initialise();
-	
+	m_seekAlien.initialise();
+	m_arriveAlien.initialise(10.0f, sf::Vector2f(600,200));
+	m_arriveAlienMrk2.initialise(5.0f, sf::Vector2f(1500, 300));
+	m_wanderAlien.initialise();
+	m_pursueAlien.initialise();
 }
 
 /// <summary>
@@ -55,6 +58,11 @@ void Game::processEvents()
 void Game::update()
 {
 	m_player.update(m_window);
+	m_seekAlien.update(m_player.getPosition());
+	m_arriveAlien.update(m_player.getPosition());
+	m_arriveAlienMrk2.update(m_player.getPosition());
+	m_wanderAlien.update(m_player.getPosition());
+	m_pursueAlien.update(m_player.getPosition(), m_player.getVelocity());
 }
 
 /// <summary>
@@ -65,7 +73,11 @@ void Game::render()
 	m_window.clear();
 
 	m_player.render(m_window);
-	m_alien.render(m_window);
+	m_seekAlien.render(m_window);
+	m_arriveAlien.render(m_window);
+	m_arriveAlienMrk2.render(m_window);
+	m_wanderAlien.render(m_window);
+	m_pursueAlien.render(m_window);
 
 	m_window.display();
 }

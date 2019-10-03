@@ -5,7 +5,7 @@
 /// </summary>
 void Player::initialise()
 {
-	m_pos = sf::Vector2f(700, 700);
+	m_pos = sf::Vector2f(1500, 1500);
 	m_velocity = sf::Vector2f(0, 0);
 	m_rotation = 0;
 
@@ -115,4 +115,14 @@ void Player::boundaryFlip(sf::RenderWindow & window)
 	{
 		m_pos.y -= window.getSize().y;
 	}
+}
+
+sf::Vector2f Player::getPosition()
+{
+	return m_pos;
+}
+
+sf::Vector2f Player::getVelocity()
+{
+	return m_velocity;
 }

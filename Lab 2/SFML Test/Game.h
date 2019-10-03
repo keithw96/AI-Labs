@@ -1,7 +1,10 @@
 #pragma once
 
 #include "Player.h"
-#include "Alien.h"
+#include "SeekAlien.h"
+#include "ArriveAlien.h"
+#include "WanderAlien.h"
+#include "PursueAlien.h"
 
 class Game
 {
@@ -17,7 +20,12 @@ public:
 private:
 
 	Player m_player;
-	Alien m_alien;
+	SeekAlien m_seekAlien;
+	ArriveAlien m_arriveAlien;
+	ArriveAlien m_arriveAlienMrk2;
+	WanderAlien m_wanderAlien;
+	PursueAlien m_pursueAlien;
+
 	sf::RenderWindow m_window;
 };
 
