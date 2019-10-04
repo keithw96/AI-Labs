@@ -126,3 +126,8 @@ sf::Vector2f Player::getVelocity()
 {
 	return m_velocity;
 }
+
+sf::FloatRect Player::getTextureRect()
+{
+	return m_sprite.getGlobalBounds();
+}

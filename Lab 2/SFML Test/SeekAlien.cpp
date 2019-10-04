@@ -11,6 +11,13 @@ void SeekAlien::initialise()
 	m_sprite.setTexture(m_texture);
 	m_sprite.setPosition(m_position.x, m_position.y);
 	m_sprite.setOrigin(m_sprite.getTextureRect().width / 2, m_sprite.getTextureRect().height / 2);
+
+	m_font.loadFromFile("arial.ttf");
+	m_text = sf::Text("Seek", m_font);
+	m_text.setCharacterSize(40);
+	m_text.setStyle(sf::Text::Bold);
+	m_text.setFillColor(sf::Color::Yellow);
+	m_text.setOrigin(m_sprite.getOrigin());
 }
 
 void SeekAlien::update(sf::Vector2f targetPosition)
@@ -21,6 +28,7 @@ void SeekAlien::update(sf::Vector2f targetPosition)
 void SeekAlien::render(sf::RenderWindow& window)
 {
 	window.draw(m_sprite);
+	window.draw(m_text);
 }
 
 int SeekAlien::getNewOrientation(int rotation, sf::Vector2f velocity)
@@ -53,4 +61,5 @@ void SeekAlien::movement(sf::Vector2f targetPosition)
 
 	m_sprite.setPosition(m_position);
 	m_sprite.setRotation(m_rotation);
+	m_text.setPosition(m_position);
 }

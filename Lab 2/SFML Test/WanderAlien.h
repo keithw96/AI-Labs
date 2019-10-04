@@ -18,13 +18,15 @@ private:
 
 	sf::Sprite m_sprite;
 	sf::Texture m_texture;
+	sf::Font m_font;
+	sf::Text m_text;
 
 	int m_rotation;
 
 	sf::Vector2f m_position;
 	sf::Vector2f m_velocity;
 
-	const float m_maxSpeed = 10.0f;
-	const float m_maxRotation = 60.0f;
+	const float m_maxSpeed = 5.0f;
+	const float m_maxRotation = 0.5f;
 };
 

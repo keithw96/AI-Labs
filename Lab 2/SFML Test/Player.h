@@ -12,6 +12,7 @@ public:
 	void render(sf::RenderWindow & window);
 	sf::Vector2f getPosition();
 	sf::Vector2f getVelocity();
+	sf::FloatRect getTextureRect();
 private:
 
 	sf::Sprite m_sprite;

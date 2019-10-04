@@ -59,8 +59,8 @@ void Game::update()
 {
 	m_player.update(m_window);
 	m_seekAlien.update(m_player.getPosition());
-	m_arriveAlien.update(m_player.getPosition());
-	m_arriveAlienMrk2.update(m_player.getPosition());
+	m_arriveAlien.update(m_player.getPosition(), m_player.getTextureRect());
+	m_arriveAlienMrk2.update(m_player.getPosition(), m_player.getTextureRect());
 	m_wanderAlien.update(m_player.getPosition());
 	m_pursueAlien.update(m_player.getPosition(), m_player.getVelocity());
 }

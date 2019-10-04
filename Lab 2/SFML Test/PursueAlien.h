@@ -20,6 +20,8 @@ private:
 
 	sf::Sprite m_sprite;
 	sf::Texture m_texture;
+	sf::Font m_font;
+	sf::Text m_text;
 
 	int m_rotation;
 

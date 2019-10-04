@@ -11,6 +11,14 @@ void PursueAlien::initialise()
 	m_sprite.setTexture(m_texture);
 	m_sprite.setPosition(m_position.x, m_position.y);
 	m_sprite.setOrigin(m_sprite.getTextureRect().width / 2, m_sprite.getTextureRect().height / 2);
+
+	m_font.loadFromFile("arial.ttf");
+	m_text = sf::Text("Pursue", m_font);
+	m_text.setCharacterSize(40);
+	m_text.setStyle(sf::Text::Bold);
+	m_text.setFillColor(sf::Color::Yellow);
+	m_text.setOrigin(m_sprite.getOrigin());
+
 }
 
 void PursueAlien::update(sf::Vector2f targetPosition, sf::Vector2f targetVelocity)
@@ -21,6 +29,7 @@ void PursueAlien::update(sf::Vector2f targetPosition, sf::Vector2f targetVelocit
 void PursueAlien::render(sf::RenderWindow& window)
 {
 	window.draw(m_sprite);
+	window.draw(m_text);
 }
 
 int PursueAlien::getNewOrientation(int rotation, sf::Vector2f velocity)
@@ -56,7 +65,7 @@ void PursueAlien::persue(sf::Vector2f targetPosition, sf::Vector2f targetVelocit
 	{
 		timePrediction = distance / speed;
 	}
-	std::cout << timePrediction << std::endl;
+
 	m_newTarget = sf::Vector2f((targetPosition + targetVelocity) * timePrediction);
 	seekTarget(m_newTarget);
 }
@@ -77,4 +86,5 @@ void PursueAlien::seekTarget(sf::Vector2f targetPosition)
 
 	m_sprite.setPosition(m_position);
 	m_sprite.setRotation(m_rotation);
+	m_text.setPosition(m_position);
 }

@@ -10,13 +10,19 @@ class ArriveAlien
 public:
 	void initialise(float maxSpeed, sf::Vector2f position);
 	void movement(sf::Vector2f targetPosition);
-	void update(sf::Vector2f targetPosition);
+	void playerConeIntersect(sf::Vector2f playerPosition, sf::FloatRect playerRect);
+	void update(sf::Vector2f targetPosition, sf::FloatRect playerRect);
 	void render(sf::RenderWindow& window);
 	int getNewOrientation(int rotation, sf::Vector2f velocity);
 
 private:
 	sf::Sprite m_sprite;
+	sf::Sprite m_coneSprite;
+	sf::Texture m_redCone;
+	sf::Texture m_greenCone;
 	sf::Texture m_texture;
+	sf::Font m_font;
+	sf::Text m_text;
 
 	int m_rotation;
 
