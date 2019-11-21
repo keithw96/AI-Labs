@@ -1,0 +1,54 @@
+﻿  ArriveAlien.cpp
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\ArriveAlien.cpp(17,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\ArriveAlien.cpp(17,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\ArriveAlien.cpp(48,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\ArriveAlien.cpp(82,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Game.cpp
+  Main.cpp
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\ArriveAlien.cpp(86,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Player.cpp
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\Main.cpp(23,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\Player.cpp(16,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\Player.cpp(16,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\Player.cpp(69,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\Player.cpp(80,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\Player.cpp(83,64): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\Player.cpp(83,64): warning C4244:         with
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\Player.cpp(83,64): warning C4244:         [
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\Player.cpp(83,64): warning C4244:             T=float
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\Player.cpp(83,64): warning C4244:         ]
+  PursueAlien.cpp
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\Player.cpp(84,64): warning C4244: '-=': conversion from 'double' to 'T', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\Player.cpp(84,64): warning C4244:         with
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\Player.cpp(84,64): warning C4244:         [
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\Player.cpp(84,64): warning C4244:             T=float
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\Player.cpp(84,64): warning C4244:         ]
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\PursueAlien.cpp(13,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\PursueAlien.cpp(13,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\PursueAlien.cpp(39,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  SeekAlien.cpp
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\PursueAlien.cpp(88,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\SeekAlien.cpp(13,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\SeekAlien.cpp(13,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\SeekAlien.cpp(38,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  WanderAlien.cpp
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\SeekAlien.cpp(63,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\WanderAlien.cpp(13,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\WanderAlien.cpp(13,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\WanderAlien.cpp(39,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\WanderAlien.cpp(58,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\WanderAlien.cpp(60,26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\WanderAlien.cpp(62,62): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\WanderAlien.cpp(62,62): warning C4244:         with
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\WanderAlien.cpp(62,62): warning C4244:         [
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\WanderAlien.cpp(62,62): warning C4244:             T=float
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\WanderAlien.cpp(62,62): warning C4244:         ]
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\WanderAlien.cpp(62,31): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\WanderAlien.cpp(62,31): warning C4244:         with
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\WanderAlien.cpp(62,31): warning C4244:         [
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\WanderAlien.cpp(62,31): warning C4244:             T=float
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\WanderAlien.cpp(62,31): warning C4244:         ]
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\WanderAlien.cpp(68,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\SFML Test\WanderAlien.cpp(70,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  SFML Test.vcxproj -> C:\Users\oakda\Documents\College Y4\AI-Labs\Lab 2\x64\Debug\SFML Test.exe

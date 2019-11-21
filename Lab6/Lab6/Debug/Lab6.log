@@ -1,0 +1,18 @@
+﻿  Game.cpp
+  Main.cpp
+  Tile.cpp
+C:\Users\oakda\Documents\college y3\AI for games\AI-for-Games-Practicals\Lab6\Lab6\Main.cpp(6,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\oakda\Documents\college y3\AI for games\AI-for-Games-Practicals\Lab6\Lab6\Tile.cpp(5,17): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\oakda\Documents\college y3\AI for games\AI-for-Games-Practicals\Lab6\Lab6\Tile.cpp(5,17): warning C4244:         with
+C:\Users\oakda\Documents\college y3\AI for games\AI-for-Games-Practicals\Lab6\Lab6\Tile.cpp(5,17): warning C4244:         [
+C:\Users\oakda\Documents\college y3\AI for games\AI-for-Games-Practicals\Lab6\Lab6\Tile.cpp(5,17): warning C4244:             T=float
+C:\Users\oakda\Documents\college y3\AI for games\AI-for-Games-Practicals\Lab6\Lab6\Tile.cpp(5,17): warning C4244:         ]
+  tileMap.cpp
+C:\Users\oakda\Documents\college y3\AI for games\AI-for-Games-Practicals\Lab6\Lab6\Tile.cpp(6,17): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\oakda\Documents\college y3\AI for games\AI-for-Games-Practicals\Lab6\Lab6\Tile.cpp(6,17): warning C4244:         with
+C:\Users\oakda\Documents\college y3\AI for games\AI-for-Games-Practicals\Lab6\Lab6\Tile.cpp(6,17): warning C4244:         [
+C:\Users\oakda\Documents\college y3\AI for games\AI-for-Games-Practicals\Lab6\Lab6\Tile.cpp(6,17): warning C4244:             T=float
+C:\Users\oakda\Documents\college y3\AI for games\AI-for-Games-Practicals\Lab6\Lab6\Tile.cpp(6,17): warning C4244:         ]
+  Generating Code...
+C:\Users\oakda\Documents\college y3\AI for games\AI-for-Games-Practicals\Lab6\Lab6\tileMap.cpp(23,20): warning C4018: '<': signed/unsigned mismatch
+sfml-graphics.lib(sfml-graphics-2.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'x86'
