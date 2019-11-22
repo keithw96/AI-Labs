@@ -90,7 +90,7 @@ void TileMap::processEvents(sf::RenderWindow& window)
 
 			m_goalSet = true;
 
-		//	initGrid(m_tilePosX, m_tilePosY);
+		//	setCosts(m_tilePosX, m_tilePosY);
 		}
 
 	}
@@ -111,7 +111,7 @@ void TileMap::processEvents(sf::RenderWindow& window)
 	}
 }
 
-void TileMap::initGrid(int posX, int posY)
+void TileMap::setCosts(int posX, int posY)
 {
 	for (int i = 0; i < m_gridSize; i++)
 	{
@@ -210,10 +210,10 @@ void TileMap::initGrid(int posX, int posY)
 		iter++;
 		tileQueue.pop_front();
 	}
-	getPath(*m_start);
+	createPath(*m_start);
 }
 
-void TileMap::getPath(Tile m_startTile)
+void TileMap::createPath(Tile m_startTile)
 {
 	std::list<Tile> tileQueue;
 

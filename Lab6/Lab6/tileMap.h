@@ -10,8 +10,8 @@ public:
 	void update(sf::RenderWindow &window);
 	void render(sf::RenderWindow &window);
 	void processEvents(sf::RenderWindow &window);
-	void initGrid(int posX, int posY);
-	void getPath(Tile m_startTile);
+	void setCosts(int posX, int posY);
+	void createPath(Tile m_startTile);
 protected:
 	static const int m_gridSize = 50;
 
